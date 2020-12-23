@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url('./images/backgound.jpg');
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 1.7rem 0;
+    font-size: 3rem;
+    opacity: 0.6;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    box-shadow: 1.5px 1.5px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sub-heading {
+    text-align: center;
+    font-size: 2rem;
+    opacity: 0.6;
+}
+
+.container input {
+    width: 100px;
+    margin: 20px auto 0px;
+    padding: 7px 23px;
+    border-radius: 20px;
+    border: 2px solid pink;
+    outline: none;
+}
+
+.container input::placeholder {
+    color: rgb(212, 212, 198);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container img {
+    box-shadow: 3px 3px 6px 4px rgba(14, 14, 14, 0.5);
+}
+
+.container .random-image {
+    margin-bottom: 5rem;
+}
+
+.container button {
+    width: 150px;
+    margin: 0 auto;
+    border: none;
+    font-size: 1.5rem;
+    background: rgb(240, 181, 71);
+    margin-top: 20px;
+    color: rgb(117, 125, 133);
+    padding: 10px;
+    border-radius: 15px;;
+    box-shadow: 2px 2px 5px rgb(223, 96, 117);
+    outline: none;
+    transition: background-color 0.4s ease, color 0.4s ease, box-shadow 0.4s ease;
+}
+
+.container button:hover {
+    background: rgb(204, 144, 155);
+    color:rgb(235, 199, 199);
+    box-shadow: 2px 2px 5px rgb(204, 158, 166);
+}
+
+
