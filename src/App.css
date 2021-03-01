@@ -34,7 +34,6 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    justify-content: center;
 }
 
 .sub-heading {
